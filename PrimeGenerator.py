@@ -1,4 +1,5 @@
-n = 100
+#n = 100
+n = int(input())
 primes = [1 for i in range(n + 1)]
 primes[0], primes[1] = 0, 0
 
